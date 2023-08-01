@@ -1,0 +1,24 @@
+
+
+details{
+    
+    width: 1200px;
+}
+
+summary::after{
+    content: '\25BC';
+    font-size: 0.985rem;
+    padding: 10px;
+}
+
+summary{
+    color: var(--color-brown);
+    font-family: var(--font-primary);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-bottom: 1px solid #d8d8d8;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
